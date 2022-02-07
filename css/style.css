@@ -1,0 +1,32 @@
+/* Colors palette */
+
+:root {
+  --primary-white-color: #fff;
+  --background-color: #222;
+  --secondary-text-color: #999;
+  --secondary-logo-color: #c2c2c2;
+  --accent-color: #00d6b4;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  background-color: var(--background-color);
+}
+
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
